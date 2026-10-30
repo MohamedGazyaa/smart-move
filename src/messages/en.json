@@ -1,0 +1,52 @@
+{
+  "Header": {
+    "logoAlt": "SMSS logo",
+    "logoAriaLabel": "SMSS homepage",
+    "navAriaLabel": "Primary navigation",
+    "openMenuAriaLabel": "Open navigation menu",
+    "closeMenuAriaLabel": "Close navigation menu",
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "industries": "Industries",
+      "contact": "Contact"
+    }
+  },
+  "Footer": {
+    "brand": {
+      "name": "Smart Move Shipping",
+      "tagline": "Global shipping support at your service.",
+      "email": "contact@smartmoveshipping.com",
+      "emailAriaLabel": "Send us an email"
+    },
+    "cert": {
+      "buttonAriaLabel": "ISO 9001:2015 certified. View certificate",
+      "title": "ISO 9001:2015 Certified",
+      "subtitle": "Certified by IAQC · View certificate",
+      "modalTitle": "ISO 9001:2015 Certificate",
+      "modalDescription": "Certified by International Associates Quality Certification (IAQC)",
+      "imageAlt": "ISO 9001:2015 Certificate preview",
+      "closeAriaLabel": "Close certificate preview"
+    },
+    "newsletter": {
+      "heading": "Get shipping updates",
+      "description": "Rates, route changes and shipping tips, sent to your inbox. Unsubscribe anytime.",
+      "emailPlaceholder": "Enter your email",
+      "emailAriaLabel": "Your email address",
+      "submitButton": "Subscribe",
+      "successMessage": "You're subscribed! Thanks for joining.",
+      "errorMessage": "Something went wrong. Please try again.",
+      "invalidEmailMessage": "Please enter a valid email address."
+    },
+    "social": {
+      "ariaLabel": "Social media links",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "x": "X (formerly Twitter)"
+    },
+    "legal": {
+      "copyright": "© 2026 Smart Move Shipping. All rights reserved."
+    }
+  }
+}

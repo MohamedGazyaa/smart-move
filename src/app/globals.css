@@ -49,6 +49,11 @@
   /* Accents & Neutrals */
   --color-yellow: #f7ef75;
   --color-white: #ffffff;
+  --color-grey: #9095a4;
+
+  /* Gradients */
+  --gradient-brand: linear-gradient(to right, var(--color-navy-light), var(--color-navy));
+  --background-image-brand-gradient: linear-gradient(to right, var(--color-navy-light), var(--color-navy));
 }
 
 @layer base {
