@@ -39,7 +39,7 @@ export default function Header() {
     <>
       <header
         role="banner"
-        className="fixed top-0 left-0 right-0 z-50 w-full bg-transparent"
+        className="fixed rounded-full top-0 left-0 right-0 z-50 w-full bg-transparent backdrop-blur-2xs"
       >
         <div className="flex h-24 w-full items-center justify-between px-6 sm:px-10 lg:px-16">
           {/* ── Mobile: burger (left) ── */}

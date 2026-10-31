@@ -1,3 +1,13 @@
+import HeroSection from "@/components/home/heroSection";
+import CommittedShippingSection from "@/components/home/committedShippingSection";
+import ServicesSection from "@/components/home/servicesSection";
+
 export default function Homepage() {
-  return <div className="bg-brand-gradient p-40 h-400">Home page</div>;
+  return (
+    <>
+      <HeroSection />
+      <CommittedShippingSection />
+      <ServicesSection />
+    </>
+  );
 }

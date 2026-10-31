@@ -2,41 +2,57 @@
 
 /* Font Faces */
 @font-face {
-  font-family: 'Montserrat';
-  src: url('/fonts/montserrat/Montserrat-Regular.woff2') format('woff2');
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat/Montserrat-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('/fonts/montserrat/Montserrat-Medium.woff2') format('woff2');
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat/Montserrat-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Proxima Nova';
-  src: url('/fonts/ProximaNova/ProximaNova-Regular.woff2') format('woff2');
+  font-family: "Proxima Nova";
+  src: url("/fonts/ProximaNova/ProximaNova-Regular.woff2?v=2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Proxima Nova';
-  src: url('/fonts/ProximaNova/ProximaNova-Medium.woff2') format('woff2');
+  font-family: "Proxima Nova";
+  src: url("/fonts/ProximaNova/ProximaNova-Medium.woff2?v=2") format("woff2");
   font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("/fonts/ProximaNova/ProximaNova-Medium.woff2?v=2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("/fonts/ProximaNova/ProximaNova-Medium.woff2?v=2") format("woff2");
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 @theme {
   /* Fonts */
-  --font-montserrat: 'Montserrat', sans-serif;
-  --font-proxima: 'Proxima Nova', sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-proxima: "Proxima Nova", sans-serif;
 
   /* Base / Default Navy */
   --color-navy: #191c45;
@@ -50,10 +66,25 @@
   --color-yellow: #f7ef75;
   --color-white: #ffffff;
   --color-grey: #9095a4;
+  --color-orange: #ea7a38;
+
+  /* Blur */
+  --blur-2xs: 2px;
+
+  /* Border Radii */
+  --radius-5xl: 4.5rem;
 
   /* Gradients */
-  --gradient-brand: linear-gradient(to right, var(--color-navy-light), var(--color-navy));
-  --background-image-brand-gradient: linear-gradient(to right, var(--color-navy-light), var(--color-navy));
+  --gradient-brand: linear-gradient(
+    to right,
+    var(--color-navy-light),
+    var(--color-navy)
+  );
+  --background-image-brand-gradient: linear-gradient(
+    to right,
+    var(--color-navy-light),
+    var(--color-navy)
+  );
 }
 
 @layer base {
@@ -61,9 +92,12 @@
     font-family: var(--font-montserrat);
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: var(--font-proxima);
   }
 }
-
-

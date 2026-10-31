@@ -12,6 +12,61 @@
       "contact": "Contact"
     }
   },
+  "Hero": {
+    "reliable": "RELIABLE",
+    "shipping": "SHIPPING",
+    "deliveredGlobally": "DELIVERED GLOBALLY",
+    "subtitle": "Tailored logistics solutions for every industry's needs",
+    "getQuote": "Get Quote",
+    "cards": {
+      "airFreight": {
+        "title": "Air Freight",
+        "description": "Fast, secure air shipping worldwide"
+      },
+      "seaFreight": {
+        "title": "Sea Freight",
+        "description": "Tracking updates available 24/7"
+      },
+      "warehousing": {
+        "title": "Warehousing",
+        "description": "Ideal for urgent deliveries"
+      }
+    }
+  },
+  "CommittedShipping": {
+    "titleCommitted": "COMMITTED TO",
+    "titleSeamless": "SEAMLESS",
+    "titleShipping": "SHIPPING",
+    "subtitle": "At Smart Move, we handle your shipments with care, ensuring timely delivery across industries worldwide",
+    "stats": {
+      "onTime": {
+        "label": "On time"
+      },
+      "trustedGlobally": {
+        "label": "Trusted Globally"
+      }
+    },
+    "imageAlt": "Smart Move delivery truck on the highway"
+  },
+  "Services": {
+    "our": "OUR",
+    "services": "SERVICES",
+    "subtitle": "Reliable global shipping tailored to your industry's needs.",
+    "items": {
+      "freight": {
+        "title": "Freight",
+        "description": "Efficient cargo transport by sea, air, and land worldwide"
+      },
+      "logistics": {
+        "title": "Logistics",
+        "description": "Coordinating shipments to ensure timely and safe delivery"
+      },
+      "support": {
+        "title": "Support",
+        "description": "Custom solutions for industries like retail, manufacturing and more"
+      }
+    }
+  },
   "Footer": {
     "brand": {
       "name": "Smart Move Shipping",
