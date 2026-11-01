@@ -67,6 +67,49 @@
       }
     }
   },
+  "OurProjects": {
+    "our": "OUR",
+    "projects": "PROJECTS",
+    "subtitle": "Delivering Tailored solutions worldwide",
+    "items": {
+      "industrialFreight": {
+        "title": "Industrial Freight",
+        "description": "Handling heavy machinery with care and precision.",
+        "image1Alt": "Cargo ship at sea",
+        "image2Alt": "Aerial view of shipping port"
+      },
+      "perishableGoods": {
+        "title": "Perishable Goods",
+        "description": "Ensuring freshness with temperature-controlled transport. Handling heavy machinery with care and precision.",
+        "image1Alt": "Container cranes at port",
+        "image2Alt": "Warehouse with shelves"
+      }
+    }
+  },
+  "ShippingExperts": {
+    "trusted": "TRUSTED",
+    "global": "GLOBAL",
+    "shippingExperts": "SHIPPING EXPERTS",
+    "description": "At Smart Move for Shipping Services, we handle your cargo with care, connecting industries worldwide efficiently and reliably.",
+    "cta": "Get Started",
+    "imageAlt": "Cargo ship at sea during sunset",
+    "imageLabel": "Reliable Service that never disappoints"
+  },
+  "OurServices": {
+    "our": "Our",
+    "services": "Services",
+    "subtitle": "Reliable global shipping tailored to your industry's needs.",
+    "items": {
+      "customerSolutions": {
+        "title": "Customer Solutions",
+        "description": "Tailored shipping plans that fit your unique business demands"
+      },
+      "freightForwarding": {
+        "title": "Freight Forwarding",
+        "description": "Tailored shipping plans that fit your unique business demands"
+      }
+    }
+  },
   "Footer": {
     "brand": {
       "name": "Smart Move Shipping",
