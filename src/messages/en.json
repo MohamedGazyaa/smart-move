@@ -180,5 +180,37 @@
     "legal": {
       "copyright": "© 2026 Smart Move Shipping. All rights reserved."
     }
+  },
+  "Contact": {
+    "title": "CONTACT US",
+    "subtitle": "Reach out anytime for personalized support with your global shipping needs.",
+    "imageAlt": "Courier delivering package",
+    "form": {
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Enter your name",
+      "email": "Email Address*",
+      "emailPlaceholder": "Enter your email",
+      "message": "Message*",
+      "messagePlaceholder": "Write your message",
+      "sendMessage": "Send Message",
+      "sending": "Sending…",
+      "successMessage": "Your message has been sent successfully!",
+      "errors": {
+        "emailRequired": "Email address is required.",
+        "emailInvalid": "Please enter a valid email address.",
+        "messageRequired": "Message is required.",
+        "networkError": "Network error. Please check your connection and try again.",
+        "genericError": "Something went wrong. Please try again."
+      }
+    },
+    "hub": {
+      "title": "OUR HUB",
+      "subtitle": "Located at the heart of the city, we coordinate shipments worldwide with precision and care.",
+      "addressLabel": "Address",
+      "addressValue": "5B, Hafez Ramadan St., Makram Ebeid Tower, Nasr City, Cairo, Egypt.",
+      "hoursLabel": "Hours",
+      "hoursValue": "Mon - Fri 9am-6pm",
+      "mapAriaLabel": "Google Maps location of Smart Move Shipping office"
+    }
   }
 }

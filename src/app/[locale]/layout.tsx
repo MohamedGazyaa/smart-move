@@ -5,6 +5,8 @@ import { getMessages, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import SmoothScroll from "@/components/common/smoothScroll";
+import "lenis/dist/lenis.css";
 import "../globals.css";
 
 export const metadata: Metadata = {
@@ -49,9 +51,11 @@ export default async function RootLayout({
       </head>
       <body className="flex min-h-full w-full flex-col">
         <NextIntlClientProvider messages={messages}>
-          <Header />
-          <main className="w-full flex-1">{children}</main>
-          <Footer />
+          <SmoothScroll>
+            <Header />
+            <main className="w-full flex-1">{children}</main>
+            <Footer />
+          </SmoothScroll>
         </NextIntlClientProvider>
       </body>
     </html>
