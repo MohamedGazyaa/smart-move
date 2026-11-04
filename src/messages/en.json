@@ -110,6 +110,40 @@
       }
     }
   },
+  "OurWork": {
+    "titleOur": "OUR",
+    "titleWork": "WORK",
+    "subtitle": "Snapshots of shipments across diverse global industries.",
+    "image1Alt": "Cargo ship at the port with containers",
+    "image2Alt": "Forklift operator in a large warehouse"
+  },
+  "IndustryCategories": {
+    "titleOur": "OUR",
+    "titleWork": "WORK",
+    "subtitle": "Shipping Solutions Tailored for Diverse Industries",
+    "label1": "Automotive",
+    "desc1": "Efficiently moving vehicles worldwide",
+    "label2": "Pharmaceuticals",
+    "desc2": "Safe, temperature-controlled shipping",
+    "image1Alt": "Automotive shipping — vehicles loaded for transport",
+    "image2Alt": "Pharmaceuticals shipping — temperature-controlled cargo",
+    "label3": "Manufacturing",
+    "desc3": "Handling heavy equipment with care.",
+    "image3Alt": "Manufacturing — heavy equipment on cargo ship deck",
+    "label4": "Agriculture",
+    "desc4": "Delivering fresh goods globally.",
+    "image4Alt": "Agriculture — fresh produce ready for shipping"
+  },
+  "ShippingPartners": {
+    "titleTrusted": "TRUSTED SHIPPING",
+    "titlePartners": "PARTNERS",
+    "titleWorldwide": "WORLDWIDE",
+    "commitmentTitle": "Our Commitment",
+    "commitmentText": "At Smart Move Shipping Services, we connect industries globally with reliable, timely shipping solutions tailored to your needs.",
+    "reachTitle": "Industry Reach",
+    "reachText": "We serve diverse sectors, ensuring your goods move smoothly across borders with care and precision every step of the way.",
+    "imageAlt": "Cargo ship sailing on the open ocean"
+  },
   "Footer": {
     "brand": {
       "name": "Smart Move Shipping",
